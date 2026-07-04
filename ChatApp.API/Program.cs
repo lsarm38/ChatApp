@@ -34,7 +34,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAll", policy =>
         policy.WithOrigins(
             "http://localhost:5173",
-            "https://your-chat-app.vercel.app"
+            "https://chat-app-delta-ten-28.vercel.app"
         )
         .AllowAnyMethod()
         .AllowAnyHeader()
